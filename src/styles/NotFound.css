@@ -1,0 +1,30 @@
+.not-found-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+}
+
+.not-found-title {
+  font-weight: 700;
+  font-size: 286px;
+  color: #ff6060;
+  margin: 0;
+}
+
+.not-found-paragraph {
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+  align-self: center;
+}
+
+.not-found-link {
+  text-decoration-line: underline;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 182px;
+  padding-bottom: 156px;
+  color: #ff6060;
+}
