@@ -8,7 +8,7 @@ function Header() {
         <div>
           <img src={logoHeader} alt="Kasa, location d'appartement" />
         </div>
-        <nav className="navBar">
+        <nav className="navbar">
           <ul>
             <li>
               <Link to={"/"}>Accueil</Link>
