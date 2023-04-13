@@ -1,6 +1,6 @@
 import logoFooter from "../assets/logo_footer.svg";
 
-const footer = () => {
+function Footer() {
   return (
     <div className="footer">
       <footer>
@@ -9,6 +9,6 @@ const footer = () => {
       </footer>
     </div>
   );
-};
+}
 
-export default footer;
+export default Footer;

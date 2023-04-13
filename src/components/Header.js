@@ -1,13 +1,12 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo_header.svg";
+import logoHeader from "../assets/logo_header.svg";
 
-const header = () => {
+function Header() {
   return (
     <div className="header">
       <header>
         <div>
-          <img src={Logo} alt="Kasa, location d'appartement"></img>
+          <img src={logoHeader} alt="Kasa, location d'appartement" />
         </div>
         <nav className="navBar">
           <ul>
@@ -22,6 +21,6 @@ const header = () => {
       </header>
     </div>
   );
-};
+}
 
-export default header;
+export default Header;
