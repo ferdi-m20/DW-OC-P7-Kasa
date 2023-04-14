@@ -1,0 +1,26 @@
+.home-banner {
+  position: relative;
+  display: flex;
+  border-radius: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../assets/home_banner.png");
+  background-position: center;
+  background-size: cover;
+  height: 171px;
+  padding: 20px;
+  width: 85%;
+  margin: 43px auto;
+}
+
+.home-banner-title {
+  display: grid;
+  grid-template-columns: 40% 80%;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  column-gap: 1%;
+  z-index: 10;
+  margin: auto;
+  color: white;
+  font-size: clamp(20px, 4vw, 40px);
+  font-weight: 700;
+}
