@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import apartments from "../data/data.json";
+import apartments from "../data/apartmentsData.json";
 import Header from "../components/Header";
 import Collpase from "../components/Collapse";
 import Footer from "../components/Footer";

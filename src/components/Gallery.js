@@ -1,4 +1,4 @@
-import apartments from "../data/data.json";
+import apartments from "../data/apartmentsData.json";
 import Card from "../components/Card";
 import "../styles/Gallery.css";
 
