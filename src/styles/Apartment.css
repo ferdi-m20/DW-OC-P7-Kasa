@@ -1,0 +1,80 @@
+.apartment-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #ff6060;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.apartment-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.apartment-info h1 {
+  margin-bottom: 0px;
+}
+
+.apartment-info p {
+  margin-bottom: 20px;
+}
+
+.apartment-info button {
+  display: inline;
+  padding: 5px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #ff6060;
+}
+
+.apartment-info button:hover {
+  box-shadow: 0 2px 8px rgb(0, 0, 0);
+}
+
+.apartment-info div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.host-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.host-content div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 0 10px;
+}
+
+.host-info {
+  align-self: center;
+  flex-direction: column;
+}
+
+.host-content img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.host-rating {
+  display: flex;
+  gap: 10px;
+}
+
+.host-rating img {
+  width: 30px;
+  height: 30px;
+}
