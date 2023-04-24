@@ -6,6 +6,7 @@ import NotFound from "./NotFound";
 import "../styles/Apartment.css";
 import redStar from "../assets/red_star.svg";
 import greyStar from "../assets/grey_star.svg";
+import Collpase from "../components/Collapse";
 
 export default function ApartmentNotFound() {
   const apartmentId = useParams("id").id;
@@ -71,6 +72,14 @@ export function Apartment({ apartmentId, singleApartmentDetail }) {
                 );
               })}
             </div>
+          </div>
+        </div>
+        <div className="apartment-collapse">
+          <div className="apartment-collapse-item">
+            <Collpase title="Description" content={description} />
+          </div>
+          <div className="apartment-collapse-item">
+            <Collpase title="Équipements" content={equipments} />
           </div>
         </div>
       </main>
