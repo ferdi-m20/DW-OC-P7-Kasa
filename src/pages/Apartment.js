@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom";
 import apartments from "../data/data.json";
 import Header from "../components/Header";
+import Collpase from "../components/Collapse";
 import Footer from "../components/Footer";
 import NotFound from "./NotFound";
 import "../styles/Apartment.css";
 import redStar from "../assets/red_star.svg";
 import greyStar from "../assets/grey_star.svg";
-import Collpase from "../components/Collapse";
 
 export default function ApartmentNotFound() {
   const apartmentId = useParams("id").id;
