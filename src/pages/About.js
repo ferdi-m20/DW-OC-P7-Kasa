@@ -6,20 +6,18 @@ import Footer from "../components/Footer";
 
 function About() {
   return (
-    <>
+    <div className="about">
       <Header />
       <Banner />
-      <main className="about">
-        {principles.map((principle, index) => {
-          return (
-            <div key={index} className="about-collapse">
-              <Collpase title={principle.title} content={principle.content} />
-            </div>
-          );
-        })}
-      </main>
+      {principles.map((principle, index) => (
+        <Collpase
+          key={index}
+          title={principle.title}
+          content={principle.content}
+        />
+      ))}
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -2,34 +2,33 @@ import { useState } from "react";
 import arrow from "../assets/arrow_down.svg";
 import "../styles/Collapse.css";
 
-function Collpase({ title, content }) {
+function Collapse({ title, content }) {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <>
-      <div className="collapse">
-        <h3 className="collapse-title" onClick={() => setToggle(!toggle)}>
-          {title}
-          <img
-            className={
-              toggle ? "arrow-effect arrow-up" : "arrow-effect arrow-down"
-            }
-            src={arrow}
-            alt="flèche vers le bas ou le haut"
-          />
-        </h3>
+    <div className="wrapper">
+      <div className="accordion">
         <div
-          className={toggle ? "collapse-content" : "collapse-content-hidden"}
+          onClick={() => setToggle(!toggle)}
+          className="toggle-handler-container"
         >
-          {Array.isArray(content)
-            ? content.map((item, index) => {
-                return <p key={index}>{item}</p>;
-              })
-            : content}
+          <div className="title-container">
+            <h2 className="title">{title}</h2>
+            <span>
+              {toggle ? (
+                <img src={arrow} alt="fléche" className="active"></img>
+              ) : (
+                <img src={arrow} alt="fléche" className="inactive"></img>
+              )}
+            </span>
+          </div>
+          <div className={toggle ? `content show ` : `content `}>
+            <p className="content-paragraph">{content}</p>
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
-export default Collpase;
+export default Collapse;

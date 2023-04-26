@@ -74,13 +74,14 @@ export function Apartment({ apartmentId, singleApartmentDetail }) {
             </div>
           </div>
         </div>
-        <div className="apartment-collapse">
-          <div className="apartment-collapse-item">
-            <Collpase title="Description" content={description} />
-          </div>
-          <div className="apartment-collapse-item">
-            <Collpase title="Équipements" content={equipments} />
-          </div>
+        <div className="collapse">
+          <Collpase title="Description" content={description} />
+          <Collpase
+            title="Équipements"
+            content={equipments.map((equipment, index) => {
+              return <li key={index}>{equipment}</li>;
+            })}
+          />
         </div>
       </main>
       <Footer />
