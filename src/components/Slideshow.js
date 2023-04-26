@@ -1,5 +1,10 @@
-const slideshow = () => {
-  return;
-};
+import { useState } from "react";
+import arrowRight from "../assets/arrow_right.svg";
+import arrowLeft from "../assets/arrow_left.svg";
+import "../styles/Slideshow.css";
 
-export default slideshow;
+function Slideshow() {
+  return;
+}
+
+export default Slideshow;
