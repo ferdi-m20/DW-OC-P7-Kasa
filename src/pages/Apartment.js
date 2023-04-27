@@ -7,28 +7,28 @@ import NotFound from "./NotFound";
 import "../styles/Apartment.css";
 import redStar from "../assets/red_star.svg";
 import greyStar from "../assets/grey_star.svg";
+import { useEffect, useState } from "react";
+import Slideshow from "../components/Slideshow";
 
 export default function ApartmentNotFound() {
-  const apartmentId = useParams("id").id;
+  const idApartment = useParams("id").id;
   const singleApartmentDetail = apartments.filter(
-    (apartment) => apartment.id === apartmentId
+    (apartment) => apartment.id === idApartment
   );
-  //   console.log(singleApartmentDetail);
+
   if (singleApartmentDetail.length === 0) {
     return <NotFound />;
   } else {
-    return (
-      <Apartment
-        apartmentId={apartmentId}
-        singleApartmentDetail={singleApartmentDetail}
-      />
-    );
+    return Apartment(singleApartmentDetail);
   }
 }
 
-export function Apartment({ apartmentId, singleApartmentDetail }) {
-  console.log(apartmentId);
-  console.log(singleApartmentDetail);
+export function Apartment(singleApartmentDetail) {
+  const [imageSlider, setImageSlider] = useState([]);
+
+  useEffect(() => {
+    setImageSlider(singleApartmentDetail[0].pictures);
+  }, [singleApartmentDetail]);
 
   const name = singleApartmentDetail[0].host.name.split(" ");
   const rating = singleApartmentDetail[0].rating;
@@ -38,6 +38,7 @@ export function Apartment({ apartmentId, singleApartmentDetail }) {
   return (
     <div>
       <Header />
+      <Slideshow imageSlider={imageSlider} />
       <main className="apartment-details-container">
         <div className="apartment-content">
           <div className="apartment-info">
