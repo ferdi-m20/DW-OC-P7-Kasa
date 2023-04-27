@@ -24,7 +24,7 @@ nav ul li:last-child {
 
 nav ul li a {
   color: #ff6060;
-  font-size: 24px;
+  font-size: clamp(12px, 2.5vw, 24px);
   font-weight: 500;
   text-decoration: none;
 }
