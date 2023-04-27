@@ -13,3 +13,14 @@
   font-size: 24px;
   color: white;
 }
+
+@media screen and (max-width: 650px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-paragraph {
+    font-size: 12px;
+  }
+}
