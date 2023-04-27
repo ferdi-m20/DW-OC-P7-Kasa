@@ -32,3 +32,24 @@
   z-index: 20;
   opacity: 1;
 }
+
+@media screen and (max-width: 1240px) {
+  .card-link {
+    width: 43%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card-link {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card-link {
+    height: 255px;
+  }
+  .card-link h3 {
+    right: 200px;
+  }
+}
