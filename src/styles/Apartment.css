@@ -85,3 +85,30 @@
   width: 30px;
   height: 30px;
 }
+
+@media screen and (max-width: 650px) {
+  .host-content {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .apartment-content {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 91%;
+  }
+
+  .host-rating img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .host-content div {
+    gap: 0 5px;
+  }
+}
