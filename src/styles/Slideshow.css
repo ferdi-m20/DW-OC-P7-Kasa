@@ -42,3 +42,22 @@
   font-weight: 500;
   font-size: clamp(14px, 2vw, 18px);
 }
+
+@media screen and (max-width: 650px) {
+  .slideshow-counter {
+    visibility: hidden;
+  }
+  .slideshow {
+    width: 91%;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .slideshow-arrow-left {
+    height: 30px;
+  }
+
+  .slideshow-arrow-right {
+    height: 30px;
+  }
+}
