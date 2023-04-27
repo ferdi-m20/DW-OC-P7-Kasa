@@ -37,3 +37,27 @@
   background-position: center;
   background-size: cover;
 }
+
+@media screen and (max-width: 650px) {
+  .home-banner {
+    height: 111px;
+    width: auto;
+    margin: 0 20px;
+    padding: 20px 0;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../assets/home_banner.png");
+  }
+
+  .home-banner-title {
+    margin-left: 5%;
+    grid-template-columns: 100%;
+  }
+
+  .about-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../assets/about_banner.png");
+    width: 94%;
+    margin-top: 0;
+  }
+}
