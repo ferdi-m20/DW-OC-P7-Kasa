@@ -32,3 +32,26 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 650px) {
+  header {
+    margin: 20px;
+    max-width: 100%;
+  }
+  header img {
+    height: 47px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  .navBar {
+    height: 47px;
+  }
+  nav ul {
+    align-items: center;
+  }
+  nav ul li {
+    margin-right: 10px;
+  }
+}
