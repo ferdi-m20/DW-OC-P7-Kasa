@@ -58,3 +58,17 @@
 .inactive {
   cursor: pointer;
 }
+
+@media screen and (max-width: 650px) {
+  .accordion {
+    width: 100%;
+  }
+
+  .content-paragraph {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+}

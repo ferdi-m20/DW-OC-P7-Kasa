@@ -57,6 +57,7 @@ export function Apartment(singleApartmentDetail) {
                 <span>{name[1]}</span>
               </div>
               <img
+                className="host-image"
                 src={singleApartmentDetail[0].host.picture}
                 alt="Hôte de l'appartement"
               />
