@@ -101,7 +101,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
-    width: 91%;
+    width: 90%;
   }
 
   .host-rating img {
@@ -112,7 +112,6 @@
   .collapse {
     display: flex;
     flex-direction: column;
-    margin: 0 5%;
   }
 }
 

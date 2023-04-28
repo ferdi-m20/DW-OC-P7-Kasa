@@ -20,7 +20,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: clamp(13px, 2vw, 24px);
   line-height: 142.6%;
   color: #ffffff;
   margin: 10px;
@@ -44,7 +44,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: clamp(12px, 2vw, 24px);
   line-height: 142.6%;
   color: #ff6060;
   padding: 10px 10px 10px 10px;
@@ -61,14 +61,14 @@
 
 @media screen and (max-width: 650px) {
   .accordion {
-    width: 100%;
+    width: 90%;
   }
 
-  .content-paragraph {
+  /* .content-paragraph {
     font-size: 12px;
   }
 
   .title {
     font-size: 14px;
-  }
+  } */
 }
