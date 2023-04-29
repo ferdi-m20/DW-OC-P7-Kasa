@@ -28,3 +28,22 @@
   padding-bottom: 156px;
   color: #ff6060;
 }
+
+@media screen and (max-width: 650px) {
+  .not-found-info {
+    margin-top: 175px;
+  }
+  .not-found-title {
+    font-size: 96px;
+  }
+  .not-found-paragraph {
+    font-size: 18px;
+    line-height: 25px;
+    width: 175px;
+    margin-top: 0;
+  }
+  .not-found-link {
+    font-size: 14px;
+    padding-top: 130px;
+  }
+}

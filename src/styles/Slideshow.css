@@ -50,6 +50,8 @@
     width: 90%;
     margin-top: 20px;
     margin-bottom: 0;
+    height: 225px;
+    border-radius: 10px;
   }
 
   .slideshow-arrow-left {
