@@ -40,8 +40,8 @@
 @media screen and (max-width: 650px) {
   .home-banner {
     height: 111px;
-    width: auto;
-    margin: 0 20px;
+    width: 90%;
+    margin: 1% auto 0px;
     padding: 20px 0;
     border-radius: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -57,6 +57,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url("../assets/about_banner.png");
     width: 90%;
-    margin-top: 0;
+    margin-top: 1%;
+    margin-bottom: 25px;
   }
 }

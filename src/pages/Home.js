@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
-import Gallery from "../components/Gallery";
+import Card from "../components/Card";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <div className="Home">
       <Header />
       <Banner />
-      <Gallery />
+      <Card />
       <Footer />
     </div>
   );
