@@ -9,9 +9,13 @@ function NotFound() {
       <Header />
       <div className="not-found-info">
         <h1 className="not-found-title">404</h1>
-        <p className="not-found-paragraph">
+        <div className="not-found-container">
+          <p className="not-found-paragraph">Oups! La page que&nbsp;</p>
+          <p className="not-found-paragraph">vous demandez n'existe pas.</p>
+        </div>
+        {/* <p className="not-found-paragraph">
           Oups! La page que vous demandez n'existe pas.
-        </p>
+        </p> */}
         <Link className="not-found-link" to="/">
           Retourner sur la page d'accueil
         </Link>
