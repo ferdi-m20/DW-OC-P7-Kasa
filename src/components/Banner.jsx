@@ -11,7 +11,7 @@ function Banner() {
     if (location.pathname === "/about") {
       setAboutPage(true);
     }
-  }, []);
+  }, [location.pathname]);
 
   return (
     <section className={aboutPage ? "about-banner" : "home-banner"}>
