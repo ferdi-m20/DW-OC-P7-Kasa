@@ -1,15 +1,13 @@
-import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useParams, Navigate } from "react-router-dom";
 import apartments from "../data/apartmentsData.json";
 import Header from "../components/Header";
+import Slideshow from "../components/Slideshow";
 import Collpase from "../components/Collapse";
 import Footer from "../components/Footer";
-import { useNavigate } from "react-router-dom";
 import "../styles/Apartment.css";
 import redStar from "../assets/red_star.svg";
 import greyStar from "../assets/grey_star.svg";
-import { useEffect, useState } from "react";
-import Slideshow from "../components/Slideshow";
-import NotFound from "./NotFound";
 
 export default function ApartmentNotFound() {
   const idApartment = useParams("id").id;
@@ -17,16 +15,8 @@ export default function ApartmentNotFound() {
     (apartment) => apartment.id === idApartment
   );
 
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    if (singleApartmentDetail.length === 0) {
-      navigate("/error", { replace: true });
-    }
-  }, [idApartment, singleApartmentDetail, navigate]);
-
   if (singleApartmentDetail.length === 0) {
-    return <NotFound />;
+    return <Navigate to="/404" replace />;
   } else {
     return Apartment(singleApartmentDetail);
   }

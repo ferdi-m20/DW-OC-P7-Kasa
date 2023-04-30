@@ -10,8 +10,8 @@ const myRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/apartment/:id" element={<Apartment />} />
       <Route path="/about" element={<About />} />
-      <Route path="/error" element={<NotFound />} />
-      <Route path="*" element={<Navigate to="/error" replace />} />
+      <Route path="/404" element={<NotFound />} />
+      <Route path="*" element={<Navigate to="/404" replace />} />
     </Routes>
   );
 };
