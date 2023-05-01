@@ -1,4 +1,8 @@
+// Composant Footer présent dans toutes les pages
+
+// Importation du logo Kasa
 import logoFooter from "../assets/logo_footer.svg";
+// Importation du fichier style
 import "../styles/Footer.css";
 
 function Footer() {

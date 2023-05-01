@@ -1,8 +1,12 @@
-import { Link } from "react-router-dom";
+// Importation du composant NavLink de notre bibliothèque React Router
+import { NavLink } from "react-router-dom";
+// Importation des composants nécessaires pour la page 404
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+// Importation du fichier style
 import "../styles/NotFound.css";
 
+// Fonction NotFound renvoie toutes les composants englobés dans un div
 function NotFound() {
   return (
     <div className="not-found">
@@ -13,12 +17,9 @@ function NotFound() {
           <p className="not-found-paragraph">Oups! La page que&nbsp;</p>
           <p className="not-found-paragraph">vous demandez n'existe pas.</p>
         </div>
-        {/* <p className="not-found-paragraph">
-          Oups! La page que vous demandez n'existe pas.
-        </p> */}
-        <Link className="not-found-link" to="/">
+        <NavLink className="not-found-link" to="/">
           Retourner sur la page d'accueil
-        </Link>
+        </NavLink>
         <Footer />
       </div>
     </div>

@@ -35,7 +35,7 @@ export function Apartment(singleApartmentDetail) {
   const equipments = singleApartmentDetail[0].equipments;
 
   return (
-    <div>
+    <div className="apartment">
       <Header />
       <Slideshow imageSlider={imageSlider} />
       <main className="apartment-details-container">

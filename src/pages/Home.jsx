@@ -1,18 +1,19 @@
-import React from "react";
+// Importation des composants nécessaires pour la page Home
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 
-const Home = () => {
+// Fonction Home renvoie toutes les composants englobés dans un div
+function Home() {
   return (
-    <div className="Home">
+    <div className="home">
       <Header />
       <Banner />
       <Card />
       <Footer />
     </div>
   );
-};
+}
 
 export default Home;
