@@ -30,7 +30,6 @@
   background: #f6f6f6;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
-  /* or 34px */
   margin-bottom: 25px;
 }
 
@@ -63,12 +62,4 @@
   .accordion {
     width: 90%;
   }
-
-  /* .content-paragraph {
-    font-size: 12px;
-  }
-
-  .title {
-    font-size: 14px;
-  } */
 }
