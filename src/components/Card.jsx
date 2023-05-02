@@ -11,9 +11,9 @@ function Card() {
   return (
     <section className="cards">
       {/* Notre Json apartments contient un array qu'on va parcourir via la méthode map
-          Cette méthode va retourner un lien (une balise <a>) pour chaque index en récupérant les propriétés id, title et cover 
-          On définit l'url de la page apartment en passant l'id de l'apartment concerné par rapport à son index
-          Les props title et cover sont utilisés dans les balises <img> et <p> pour afficher dans notre composant Card */}
+          Cette méthode va retourner un lien (une balise <a>) pour chaque élément en récupérant les propriétés id, title et cover 
+          On définit l'url de la page apartment en passant l'id de l'apartment concerné par rapport à son élément
+          Les props title et cover sont utilisés dans les balises <img> et <p> pour afficher l'image et son titre dans chaque <article>  */}
       {apartments.map((apartment) => (
         <Link to={`/apartment/${apartment.id}`} key={apartment.id}>
           <article className="card-thumbnail">
