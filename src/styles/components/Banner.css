@@ -3,7 +3,7 @@
   display: flex;
   border-radius: 25px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/home_banner.png");
+    url("../../assets/home_banner.png");
   background-position: center;
   background-size: cover;
   height: 223px;
@@ -32,7 +32,7 @@
   width: 90%;
   margin: 43px auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/about_banner.png");
+    url("../../assets/about_banner.png");
   background-position: center;
   background-size: cover;
 }
@@ -45,7 +45,7 @@
     padding: 20px 0;
     border-radius: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("../assets/home_banner.png");
+      url("../../assets/home_banner.png");
   }
 
   .home-banner-title {
@@ -55,7 +55,7 @@
 
   .about-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("../assets/about_banner.png");
+      url("../../assets/about_banner.png");
     width: 90%;
     margin-top: 1%;
     margin-bottom: 25px;

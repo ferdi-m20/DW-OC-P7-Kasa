@@ -6,7 +6,7 @@ import { useState } from "react";
 import arrowRight from "../assets/right_arrow.svg";
 import arrowLeft from "../assets/left_arrow.svg";
 // Importation du fichier style
-import "../styles/Slideshow.css";
+import "../styles/components/Slideshow.css";
 
 // La fonction Slideshow prend en props un tableau d'images venant de la page apartment
 function Slideshow({ imageSlider }) {

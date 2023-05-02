@@ -13,7 +13,7 @@ import Footer from "../components/Footer";
 import redStar from "../assets/red_star.svg";
 import greyStar from "../assets/grey_star.svg";
 // Importation du fichier style
-import "../styles/Apartment.css";
+import "../styles/pages/Apartment.css";
 
 export default function ApartmentNotFound() {
   // On récupère l'id de l'appartement depuis les paramètres de l'url grâce au hook useParams

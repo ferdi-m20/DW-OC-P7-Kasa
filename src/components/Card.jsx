@@ -5,7 +5,7 @@ import apartments from "../data/apartmentsData.json";
 // Importation du composant Link de notre bibliothèque React Router
 import { Link } from "react-router-dom";
 // Importation du fichier style
-import "../styles/Card.css";
+import "../styles/components/Card.css";
 
 function Card() {
   return (

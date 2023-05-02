@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 // Importation du logo Kasa
 import logoHeader from "../assets/logo_header.svg";
 // Importation du fichier style
-import "../styles/Header.css";
+import "../styles/components/Header.css";
 
 function Header() {
   return (

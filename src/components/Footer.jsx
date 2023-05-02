@@ -3,7 +3,7 @@
 // Importation du logo Kasa
 import logoFooter from "../assets/logo_footer.svg";
 // Importation du fichier style
-import "../styles/Footer.css";
+import "../styles/components/Footer.css";
 
 function Footer() {
   return (

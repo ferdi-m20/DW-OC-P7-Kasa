@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 // Importation du fichier style
-import "../styles/NotFound.css";
+import "../styles/pages/NotFound.css";
 
 // Fonction NotFound renvoie toutes les composants englobés dans un div
 function NotFound() {

@@ -5,7 +5,7 @@ import { useState } from "react";
 // Importation de l'image flèche
 import arrow from "../assets/arrow_down.svg";
 // Importation du fichier style
-import "../styles/Collapse.css";
+import "../styles/components/Collapse.css";
 
 /* Fonction Collapse qui reçoit les props "title" et "content" 
    permettant de créer un composant réutilisable pour les pages "about" et "apartment" */

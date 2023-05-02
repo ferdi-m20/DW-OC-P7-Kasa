@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 // Importation du hook useLocation de notre bibliothèque React
 import { useLocation } from "react-router-dom";
 // Importation du fichier style
-import "../styles/Banner.css";
+import "../styles/components/Banner.css";
 
 function Banner() {
   // Le hook useState gère l'état de "aboutPage" de notre composant Banner
