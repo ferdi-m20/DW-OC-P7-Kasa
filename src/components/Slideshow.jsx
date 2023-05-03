@@ -38,7 +38,7 @@ function Slideshow({ imageSlider }) {
        à l'aide de l'attribut style qui utilise la propriété backgroundImage.
        Si le nombre d'éléments (images) présents dans le tableau imageSlider est supérieur à 1,
        On affiche les flèches droite et gauche sur le Slideshow avec le compteur d'images, 
-       Sinon on affiche uniquement la seule image du tableau imageSlide sans les flechès ni le compteur */
+       Sinon on affiche uniquement la seule image du tableau imageSlider sans les flechès ni le compteur */
     <section
       style={{ backgroundImage: `url(${imageSlider[currentIndex]})` }}
       className="slideshow"

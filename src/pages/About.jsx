@@ -13,7 +13,7 @@ function About() {
       <Header />
       <Banner />
       {/* Notre Json principles contient un array qu'on va parcourir via la méthode map
-          Cette méthode va retourner notre Composant Collpase pour chaque index en récupérant les propriétés title et content 
+          Cette méthode va retourner notre Composant Collpase pour chaque élément en récupérant les propriétés title et content 
           et en passant leurs valeurs en tant que props dans notre composant Collapse */}
       {principles.map((principle, index) => (
         <Collpase

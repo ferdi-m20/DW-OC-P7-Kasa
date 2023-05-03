@@ -25,7 +25,7 @@ export default function ApartmentNotFound() {
   );
 
   /* On vérifie si le tableau singleApartmentDetail contient un élément?
-     Si ce n'est pas le cas on redirige l'utilisateur vers la route "/404" qui contient la page 404
+     Si ce n'est pas le cas on redirige l'utilisateur vers la route "/404" qui contient la page NotFound
      Si c'est le cas on appelle la fonction Apartment en passant singleApartmentDetail comme argument */
   if (singleApartmentDetail.length === 0) {
     return <Navigate to="/404" replace />;
