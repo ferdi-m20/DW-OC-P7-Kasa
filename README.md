@@ -18,13 +18,13 @@ An appartment rental service between individuals using HTML, CSS
 
 - You can then run the server by typing `npm start`
 
-## Built With:
+## Built With
 
 - [Visual Studio Code](https://code.visualstudio.com/) - Text editor
 - [GitHub](https://github.com/) - Version control tool
 - [GitHub Pages](https://pages.github.com/) - Hosting tool
 
-*** Frontend ***
+**_Frontend_**
 
 - [React 18](https://reactjs.org/) - Free and open-source JavaScript library developed by Facebook
 - [Create React App](https://create-react-app.dev/) - Toolkit created by Facebook, which is the reference for initiating a React project
