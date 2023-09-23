@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Kasa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An appartment rental service between individuals using HTML, CSS 
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+### Installing and launching Font-end:
 
-### `npm start`
+1. Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `https://github.com/ferdi-m20/DW-OC-P7-Kasa.git`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Install all dependencies for Front-end:
 
-### `npm test`
+- From the main folder that contains all files of the project, run `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Launch front-end on port 3000 (default port):
 
-### `npm run build`
+- You can then run the server by typing `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Visual Studio Code](https://code.visualstudio.com/) - Text editor
+- [GitHub](https://github.com/) - Version control tool
+- [GitHub Pages](https://pages.github.com/) - Hosting tool
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*** Frontend ***
 
-### `npm run eject`
+- [React 18](https://reactjs.org/) - Free and open-source JavaScript library developed by Facebook
+- [Create React App](https://create-react-app.dev/) - Toolkit created by Facebook, which is the reference for initiating a React project
+- [React Router V6](https://reactrouter.com/) - Routing library for React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## More Projects
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Reservia](https://github.com/ferdi-m20/DW-OC-P2-Reservia) (HTML and CSS) : [github-pages](https://ferdi-m20.github.io/DW-OC-P2-Reservia/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Ohmyfood](https://github.com/ferdi-m20/DW-OC-P3-Ohmyfood) (HTML and CSS) : [github-pages](https://ferdi-m20.github.io/DW-OC-P3-Ohmyfood/)
 
-## Learn More
+[La Chouette Agence](https://github.com/ferdi-m20/DW-OC-P4-La-Chouette-Agence) (SEO, Accessibility) : [github-pages](https://ferdi-m20.github.io/DW-OC-P4-La-Chouette-Agence/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Kanap](https://github.com/ferdi-m20/DW-OC-P5-Kanap) an e-commerce website (front-end in Javascript) : follow instructions in "ReadMe"
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Piquante](https://github.com/ferdi-m20/DW-OC-P6-Piquante) a sauce rating web application (back-end with Node, Express and MongoDB) : follow instructions in "ReadMe"
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Kasa](https://github.com/ferdi-m20/DW-OC-P7-Kasa) an appartment rental web application (front-end in React using React Router and React Components and back-end using extracts of JSON) : follow instructions in "ReadMe"
