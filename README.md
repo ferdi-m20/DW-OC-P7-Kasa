@@ -2,6 +2,10 @@
 
 An appartment rental service between individuals using HTML, CSS 
 
+## Prerequisites
+
+You will need to have Node and `npm` installed locally on your machine
+
 ## Installation
 
 ### Installing and launching Font-end:
